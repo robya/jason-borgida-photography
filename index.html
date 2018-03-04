@@ -95,12 +95,88 @@ body, html {
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Behind everything, there is something worth photographing. This is what got me into photography and what drives me to expand my portfolio as much as I can. I shoot everything from sports to portraits to landscapes. My name is Jason Borgida and I'm an aspiring photographer from Washington state. 
-        Born in Colorado with residencies in Nevada, Illinois, and Virginia, I now reside in Hawaii at the University of Hawaii. My gear includes a Nikon D3400 with my favorite lens being a 35 mm f/1.8 allowing for perfect bokeh. I love to work with people and light but always enjoy 
-        getting out into the landscape. This is my favorite hobby and I can't wait to get outside and capture the world. If you have any questions about me or my gear, please feel free to contact me through any of the contact forms below!!”</p>
+      <p>Behind everything, there is something to be photographed. It's those little somethings that compelled me to expand my portfolio as much as I can through capturing everything from sports to portraits to landscapes. 
+        My name is Jason Borgida and I'm an aspirin photographer from Washington state. Born in Colorado with residencies in Nevada, Illinois, and Virginia, I now reside in Hawaii at the University of Hawaii. 
+        My gear includes a Nikon D3400 with my favorite lens being a 35 mm f/1.8 allowing for perfect bokeh. I love to work with people and light but always enjoy getting out into the landscape. 
+        This is my favorite hobby and I can't wait to get outside and capture the world. If you have any questions about me or my gear, please feel free to contact me through any of the contact forms below!!</p>
     </div>
   </div>
 </div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Here are some of my latest work<br> Click on the images to make them bigger</em></p><br>
+  
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="./img/lighthouse5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="./img/lighthouse5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Test">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="./img/lighthouse5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="./img/newjason.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="./img/newjason.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="./img/newjason.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="./img/newjason.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="./img/newjason.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
+    <a href="collections.html#"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">SEE MORE</button></a>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="collections.html#" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
